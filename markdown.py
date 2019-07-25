@@ -1,11 +1,14 @@
 import sys
 from marks import marks
 import re
+import os
+
 
 markdown_file = sys.argv[1]
-output_file = re.sub('.md', '.html', sys.argv[1])
+output_file = "build/" + os.path.basename(re.sub('.md', '.html', sys.argv[1]))
 count_marks = 0
 current_mark = ""
+
 
 def increment(s, inc):
     """ Take given [s] string and icrement all the numbers
@@ -22,7 +25,7 @@ def substring_after(s1, s2):
 # Render file based on markdown file
 
 with open(markdown_file, "rt") as markdown:
-    with open(output_file, "wt") as out:
+    with open("tmp/output", "wt") as out:
         for line in markdown:
             output = line
 
@@ -48,7 +51,8 @@ with open(markdown_file, "rt") as markdown:
 # Concatenate files
 
 filenames = ['source/start.html', 'tmp/output', 'source/end.html']
-with open('index.html', 'w') as outfile:
+with open(output_file, 'w') as outfile:
+
     for fname in filenames:
         with open(fname) as infile:
             for line in infile:

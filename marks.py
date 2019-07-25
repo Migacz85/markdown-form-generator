@@ -49,8 +49,10 @@ marks = {
         </h3>
         '''
     ],
-    "[score]": ['''<h3 id="score"> </h3> ''', ''' '''
-                ],
     "p": ['''<p>''', '''</p> '''
           ],
+    "[score]": ['''
+          <h3> Estimated score for project: <span id="score"> </span> </h3>''',
+                 ''' '''],
+
 }
