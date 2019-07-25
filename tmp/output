@@ -1,0 +1,120 @@
+
+        <h2>
+         First title
+
+        <hr>
+        </h2>
+        
+          <button class="btn btn-primary" type="button" data-toggle="collapse"
+        aria-expanded="false" data-target="#collapse2">
+        Hi men one 
+
+          <span id="display2"> </span> </button>
+          <div class="collapse" id="collapse2" onclick="calculate('collapse2',
+        'display2', 'grade');">
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="3">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        this need to be checked
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="4">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        And this this 
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="5">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        and this this 
+
+            </label>
+         </div>
+        </div> 
+ 
+          <button class="btn btn-primary" type="button" data-toggle="collapse"
+        aria-expanded="false" data-target="#collapse7">
+        hello world two
+
+          <span id="display7"> </span> </button>
+          <div class="collapse" id="collapse7" onclick="calculate('collapse7',
+        'display7', 'grade');">
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="8">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        this need to be checked
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="9">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        And this this 
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="10">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        and this this 
+
+            </label>
+         </div>
+        </div> 
+ 
+        <h2>
+         Second title
+
+        <hr>
+        </h2>
+        
+          <button class="btn btn-primary" type="button" data-toggle="collapse"
+        aria-expanded="false" data-target="#collapse13">
+        hey hey three
+
+          <span id="display13"> </span> </button>
+          <div class="collapse" id="collapse13" onclick="calculate('collapse13',
+        'display13', 'grade');">
+          <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="14">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        this need to be checked
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="15">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        And this this 
+
+            </label>
+         </div>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" value="" id="16">
+            <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+        and this this 
+
+            </label>
+         </div>
+        </div> 
+ 
+          <button class="btn btn-primary" type="button" data-toggle="collapse"
+        aria-expanded="false" data-target="#collapse18">
+        fourth requirement
+
+          <span id="display18"> </span> </button>
+          <div class="collapse" id="collapse18" onclick="calculate('collapse18',
+        'display18', 'grade');">
+          
