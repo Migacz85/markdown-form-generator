@@ -3,7 +3,7 @@
 Write in markdown, and generate a form. Simple to use, and simple to configure
 A starting project that will help you created your own markup language to 
 generate a form you like. 
- 
+[video explanation](https://migacz85.github.io/markdown-form-generator/project-explanation.ogv)
 
 ### Features
 - Converting markdown file to a fully functional form with buttons and
